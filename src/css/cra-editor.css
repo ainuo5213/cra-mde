@@ -1,0 +1,142 @@
+.cra-editor {
+    width: 1000px;
+    height: 515px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    margin: 100px auto;
+}
+
+.cra-editor .cra-tool-bar {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 0 6px;
+    border-bottom: 1px solid #ddd;
+    color: #555;
+    box-sizing: border-box;
+}
+
+.cra-tool-list, .cra-editor-op {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.cra-tool-list {
+    width: 60%;
+}
+
+.cra-tool-list > li, .cra-editor-op > li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 4px 6px;
+    margin: 8px 4px;
+    border-radius: 4px;
+    line-height: normal;
+    cursor: pointer;
+
+}
+
+.cra-tool-list li:hover, .cra-editor-op li:hover {
+    background: #e9e9e9;
+}
+
+.cra-tool-list li.cra-upload-img {
+    position: relative;
+}
+
+.cra-tool-list li.cra-upload-img ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -50px;
+    width: 140px;
+    margin-top: 4px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 8px 0;
+    z-index: 99;
+    line-height: 2.8;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+
+.cra-tool-list li.cra-upload-img ul li {
+    border-radius: 4px 4px 0 0;
+}
+
+
+.cra-tool-list li.cra-upload-img ul input {
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.cra-editor-main {
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+.cra-editor-main .cra-panel {
+    flex: 1;
+    overflow: auto;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+.cra-editor-main .cra-panel::-webkit-scrollbar { /*滚动条整体样式*/
+    width: 6px; /*高宽分别对应横竖滚动条的尺寸*/
+    height: 1px;
+
+}
+
+.cra-editor-main .cra-panel::-webkit-scrollbar-thumb { /*滚动条里面小方块*/
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: #959595;
+
+}
+
+.cra-editor-main .cra-panel::-webkit-scrollbar-track { /*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background: #EDEDED;
+
+}
+
+.cra-editor-main textarea {
+    font-family: 'Consolas', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding: 8px 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    resize: none;
+    border: none;
+    outline: none;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    line-height: inherit;
+}
