@@ -1,10 +1,12 @@
 export interface CraEditorProps {
     value: string;
     onChange: (value: string) => void;
-    options?:Options
+    tool?: Tool,
+    onSave?: (value: string) => void;
+    onUpload?: (file: File) => void;
 }
 
-export interface Options {
+export interface Tool {
     h1?: boolean;
     h2?: boolean;
     h3?: boolean;
@@ -18,5 +20,5 @@ export interface Options {
 }
 
 export interface ToolOptions {
-    [key: string]:JSX.Element
+    [key: string]: JSX.Element
 }
