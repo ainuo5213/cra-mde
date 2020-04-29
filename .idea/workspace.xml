@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a9ee5f9-49c9-4f98-a5c1-28d61d010022" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CraEditor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/CraEditor.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/cra-editor.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/cra-editor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/iconfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/iconfont.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/iconfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/iconfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/iconfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/iconfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/iconfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/iconfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/iconfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/iconfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/index.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CraEditor.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-739">
-              <caret line="112" column="6" lean-forward="true" selection-start-line="112" selection-start-column="6" selection-end-line="112" selection-end-column="6" />
+            <state relative-caret-position="287">
+              <caret line="184" column="72" selection-start-line="184" selection-start-column="72" selection-end-line="184" selection-end-column="72" />
               <folding>
                 <element signature="e#0#59#0" expanded="true" />
               </folding>
@@ -55,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/css/cra-editor.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="339">
+              <caret line="144" column="35" selection-start-line="144" selection-start-column="35" selection-end-line="144" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -84,6 +74,8 @@
       <find>cra-editor-edit</find>
       <find>options</find>
       <find>backg</find>
+      <find>cra-editor-preview</find>
+      <find>cra-editor-main</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -101,8 +93,8 @@
         <option value="$PROJECT_DIR$/src/contants/index.ts" />
         <option value="$PROJECT_DIR$/src/types/index.ts" />
         <option value="$PROJECT_DIR$/src/App.tsx" />
-        <option value="$PROJECT_DIR$/src/css/cra-editor.css" />
         <option value="$PROJECT_DIR$/src/CraEditor.tsx" />
+        <option value="$PROJECT_DIR$/src/css/cra-editor.css" />
       </list>
     </option>
   </component>
@@ -191,12 +183,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588134359759</updated>
-      <workItem from="1588134362781" duration="17416000" />
+      <workItem from="1588134362781" duration="17796000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17416000" />
+    <option name="totallyTimeSpent" value="17796000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -213,12 +205,12 @@
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25082508" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25082508" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32896653" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32896653" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -311,20 +303,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/cra-editor.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CraEditor.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-739">
-          <caret line="112" column="6" lean-forward="true" selection-start-line="112" selection-start-column="6" selection-end-line="112" selection-end-column="6" />
+        <state relative-caret-position="287">
+          <caret line="184" column="72" selection-start-line="184" selection-start-column="72" selection-end-line="184" selection-end-column="72" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/cra-editor.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="144" column="35" selection-start-line="144" selection-start-column="35" selection-end-line="144" selection-end-column="35" />
         </state>
       </provider>
     </entry>
