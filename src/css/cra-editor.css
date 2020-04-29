@@ -69,7 +69,6 @@ html, body, #root {
     top: 100%;
     left: -50px;
     width: 140px;
-    margin-top: 4px;
     background: #fff;
     border-radius: 4px;
     box-shadow: rgba(0, 0, 0, 0.1) 0 2px 8px 0;
@@ -78,6 +77,7 @@ html, body, #root {
     text-align: center;
     padding: 0;
     margin: 0;
+    font-size: 14px;
 }
 
 
@@ -101,12 +101,6 @@ html, body, #root {
     display: flex;
     overflow: hidden;
     position: relative;
-}
-.cra-editor-main .cra-panel {
-    flex: 1;
-    overflow: auto;
-    box-sizing: border-box;
-    padding-left: 10px;
 }
 
 .cra-editor-main .cra-editor-edit {
@@ -136,13 +130,6 @@ html, body, #root {
     border-radius: 10px;
     background: #EDEDED;
 
-}
-
-.cra-editor-main .cra-panel {
-    height: 100%;
-    flex: 0 0 100%;
-    overflow: auto;
-    transition: all 0.2s linear 0s;
 }
 
 .cra-editor-main .cra-editor-panel {
@@ -177,13 +164,30 @@ html, body, #root {
     height: 100% !important;
 }
 
-.cra-editor-main .cra-editor-preview {
+.cra-editor-main .cra-panel {
     height: 100%;
     flex: 0 0 100%;
     overflow: auto;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.cra-editor-main .cra-editor-preview {
+    background: #fcfcfc;
+}
+
+.cra-editor-main .cra-panel.cra-animate {
     transition: all 0.2s linear 0s;
 }
 
-.cra-editor-main .cra-editor-preview.preview-active {
+.cra-editor-main .cra-active.cra-panel {
     flex: 0 0 50%;
+}
+
+.cra-editor-main .cra-editor-preview.full-preview {
+    flex: 0 0 100%;
+}
+
+.cra-editor-main .cra-editor-edit.full-preview {
+    flex: 0 0 0%;
 }

@@ -4,6 +4,9 @@ export interface CraEditorProps {
     tool?: Tool,
     onSave?: (value: string) => void;
     onUpload?: (file: File) => void;
+    animate?: boolean;
+    scroll?: boolean;
+    lang?: any
 }
 
 export interface Tool {
@@ -19,6 +22,11 @@ export interface Tool {
     save?: boolean;
 }
 
-export interface ToolOptions {
-    [key: string]: JSX.Element
+export interface Language {
+    cn: {
+        [key: string]: string
+    },
+    en: {
+        [key: string]: string
+    },
 }
